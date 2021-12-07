@@ -15,8 +15,8 @@ git clone https://github.com/emqx/qmqtt.git
 cd qmqtt/
 qmake qmqtt.pro
 sudo make install
-git clone 
-cd MqttLoadSimulator/
+
+cd ../MqttLoadSimulator/
 sudo qmake MqttLoadSimulator.pro
 make clean
 sudo make install

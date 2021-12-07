@@ -4,6 +4,7 @@ Simulate MQTT load / MQTT stress tester.
 
 # Installation
 
+''git clone https://github.com/halfgaar/MqttLoadSimulator.git
 git clone https://github.com/emqx/qmqtt.git
 cd qmqtt/
 qmake qmqtt.pro
@@ -15,7 +16,7 @@ sudo qmake MqttLoadSimulator.pro
 make clean
 sudo make install
 ls
-./MqttLoadSimulator --help
+./MqttLoadSimulator --help''
 
 # Requirements
 

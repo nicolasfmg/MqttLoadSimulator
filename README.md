@@ -5,7 +5,8 @@ Simulate MQTT load / MQTT stress tester.
 # Installation
 To compile the program you can do the following
 
-```sudo apt-get update
+```
+sudo apt-get update
 sudo apt-get install build-essential
 sudo apt-get install qt5-default
 
@@ -20,7 +21,8 @@ sudo qmake MqttLoadSimulator.pro
 make clean
 sudo make install
 ls
-./MqttLoadSimulator --help```
+./MqttLoadSimulator --help
+```
 
 # Requirements
 
